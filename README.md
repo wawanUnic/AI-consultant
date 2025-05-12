@@ -39,32 +39,32 @@ docker-compose --version
 ## Install Dozzle
 This is a lightweight open-source an application with a web interface designed to monitor Docker container logs in real time. It allows you to track events in logs without having to access the file system.
 
-[Сервис мониторинга Dozzle](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/dozzle.md)
+[Dozzle](https://github.com/wawanUnic/AI-consultant/blob/main/dozzle.md)
 
 ## Installing PostgreSQL (+Admin)
 This is an open-source object-relational database management system. It will be used to store correspondence with clients. For each new browser session, a new chain of communication will be created in the database.
 
-[База данных PostgreSQL+Админер](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/postgresql.md)
+[PostgreSQL+Админер](https://github.com/wawanUnic/AI-consultant/blob/main/postgresql.md)
 
 ## Install MySQL (+Admin)
 This is a popular open source relational database management system. It is used to store, manage and organize data. It will be used to store the site map on which the AI ​​consultant works.
 
-[База данных MySQL+Админер](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/mysql.md)
+[MySQL+Админер](https://github.com/wawanUnic/AI-consultant/blob/main/mysql.md)
 
 ## Install Supabase
 This is an open source platform. Supabase provides a full set of application development tools, including Postgres Database - a reliable relational database. It will house the vector storage for the knowledge base.
 
-[База данных Supabase](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/supabase.md)
+[Supabase](https://github.com/wawanUnic/AI-consultant/blob/main/supabase.md)
 
 ## Installing Crawl4AI
 This is a web crawling and data extraction tool specifically designed to work with large language models (LLM), AI agents, and data pipelines. This is an open source project.
 
-[Краулер Crawl4AI](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/crawl4ai.md)
+[Crawl4AI](https://github.com/wawanUnic/AI-consultant/blob/main/crawl4ai.md)
 
 ## Installing n8n
 This is an open source workflow automation platform. It allows you to create complex automations without the need for deep programming knowledge. The core processes of the AI ​​consultant will work in it.
 
-[n8n](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/n8n.md)
+[n8n](https://github.com/wawanUnic/AI-consultant/blob/main/n8n.md)
 
 - Воркфлоу для общения с ИИ-консультантом. Должен быть включен всегда. [NeroBY_chat](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/n8n/NeroBY_chat.json)
 
@@ -100,10 +100,10 @@ The widget code is inserted into the HTML of the site page. The insertion point 
 
 [Код входной части воркфлоу](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/n8n/NeroBY_chat_withHistory.json)
 
-## Устанавливаем сервис для логов
-Это самостоятельно размещаемый сервер уведомлений, который позволяет отправлять и получать сообщения. Он предназначен для упрощения работы с уведомлениями и предоставляет удобный интерфейс для управления ими.
+## Installing a Log Service
+This is a self-hosted notification server that allows you to send and receive messages. It is designed to simplify the work with notifications and provides a convenient interface for managing them.
 
-[gotify](https://gitlab.neroelectronics.by/v.ponomarchuk/ai-consultant/-/blob/dev/gotify.md)
+[gotify](https://github.com/wawanUnic/AI-consultant/blob/main/gotify.md)
 
 ## 
 The software must adhere to 12 design principles for building scalable and reliable applications (The Twelve-Factor App by Heroku):
